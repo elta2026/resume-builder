@@ -20,7 +20,7 @@ export default function PostActions({ likes }: { likes: number }) {
         >
           <HeartIcon
             filled={liked}
-            className={`size-6 transition-colors ${liked ? "text-tafel-500" : ""}`}
+            className={`size-6 transition-colors ${liked ? "text-tawizy-500" : ""}`}
           />
         </button>
         <ChatIcon className="size-6" />

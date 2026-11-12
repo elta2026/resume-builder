@@ -11,7 +11,7 @@ export default function WaitlistForm({ inverted = false }: { inverted?: boolean 
       <p
         role="status"
         className={`rounded-full px-5 py-3 text-sm font-medium ${
-          inverted ? "bg-white/15 text-white" : "bg-tafel-50 text-tafel-600 dark:bg-tafel-500/15 dark:text-tafel-400"
+          inverted ? "bg-white/15 text-white" : "bg-tawizy-50 text-tawizy-600 dark:bg-tawizy-500/15 dark:text-tawizy-400"
         }`}
       >
         You&apos;re on the list. We&apos;ll save you a seat at the table.
@@ -38,15 +38,15 @@ export default function WaitlistForm({ inverted = false }: { inverted?: boolean 
         className={`h-12 flex-1 rounded-full border px-5 text-sm outline-none transition focus:ring-4 ${
           inverted
             ? "border-white/30 bg-white/10 text-white placeholder:text-white/60 focus:ring-white/20"
-            : "border-zinc-200 bg-white text-zinc-900 placeholder:text-zinc-400 focus:border-tafel-400 focus:ring-tafel-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:focus:ring-tafel-500/20"
+            : "border-zinc-200 bg-white text-zinc-900 placeholder:text-zinc-400 focus:border-tawizy-400 focus:ring-tawizy-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:focus:ring-tawizy-500/20"
         }`}
       />
       <button
         type="submit"
         className={`h-12 rounded-full px-6 text-sm font-semibold transition ${
           inverted
-            ? "bg-white text-tafel-600 hover:bg-tafel-50"
-            : "bg-tafel-500 text-white hover:bg-tafel-600"
+            ? "bg-white text-tawizy-600 hover:bg-tawizy-50"
+            : "bg-tawizy-500 text-white hover:bg-tawizy-600"
         }`}
       >
         Join the waitlist

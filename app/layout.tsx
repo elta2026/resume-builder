@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tafel — Share the everyday with your people",
+  title: "Tawizy — Share the everyday with your people",
   description:
-    "Tafel is a photo-sharing app for the small moments worth passing around the table.",
+    "Tawizy is a photo-sharing app for the small moments worth passing around the table.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -11,7 +11,7 @@ import {
   UserIcon,
 } from "./ui/icons";
 
-const brandGradient = "bg-linear-to-tr from-tafel-amber via-tafel-400 to-tafel-600";
+const brandGradient = "bg-linear-to-tr from-tawizy-amber via-tawizy-400 to-tawizy-600";
 
 const stories = [
   { name: "Your story", tone: "from-zinc-200 to-zinc-300 dark:from-zinc-700 dark:to-zinc-600", seen: true },
@@ -50,11 +50,11 @@ const explore = [
 
 function Logo() {
   return (
-    <a href="#" className="flex items-center gap-2" aria-label="Tafel home">
+    <a href="#" className="flex items-center gap-2" aria-label="Tawizy home">
       <span className={`grid size-8 place-items-center rounded-[10px] text-white ${brandGradient}`}>
         <TableIcon className="size-5" />
       </span>
-      <span className="text-xl font-bold tracking-tight">Tafel</span>
+      <span className="text-xl font-bold tracking-tight">Tawizy</span>
     </a>
   );
 }
@@ -62,10 +62,10 @@ function Logo() {
 function PhoneMockup() {
   return (
     <div className="relative mx-auto w-[300px] shrink-0">
-      <div className="overflow-hidden rounded-[2.75rem] border-[10px] border-zinc-900 bg-white text-zinc-900 shadow-2xl shadow-tafel-500/20 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-100">
+      <div className="overflow-hidden rounded-[2.75rem] border-[10px] border-zinc-900 bg-white text-zinc-900 shadow-2xl shadow-tawizy-500/20 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-100">
         {/* App bar */}
         <div className="flex items-center justify-between px-4 pt-4 pb-2">
-          <span className="text-lg font-bold tracking-tight">Tafel</span>
+          <span className="text-lg font-bold tracking-tight">Tawizy</span>
           <div className="flex gap-3">
             <HeartIcon className="size-5" />
             <SendIcon className="size-5" />
@@ -131,7 +131,7 @@ function PhoneMockup() {
         </p>
       </div>
       <div className="absolute -right-20 bottom-36 hidden items-center gap-2 rounded-full bg-white px-3.5 py-2 text-zinc-900 shadow-xl ring-1 ring-zinc-900/5 lg:flex dark:bg-zinc-900 dark:text-zinc-100 dark:ring-white/10">
-        <HeartIcon filled className="size-4 text-tafel-500" />
+        <HeartIcon filled className="size-4 text-tawizy-500" />
         <span className="text-xs font-semibold">+128 likes</span>
       </div>
     </div>
@@ -164,10 +164,10 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero */}
         <section className="relative overflow-hidden">
-          <div className="pointer-events-none absolute -top-40 right-0 size-[36rem] rounded-full bg-tafel-100/70 blur-3xl dark:bg-tafel-500/10" />
+          <div className="pointer-events-none absolute -top-40 right-0 size-[36rem] rounded-full bg-tawizy-100/70 blur-3xl dark:bg-tawizy-500/10" />
           <div className="relative mx-auto grid max-w-6xl items-center gap-16 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-24">
             <div className="flex flex-col items-start gap-6">
-              <span className="rounded-full bg-tafel-50 px-3 py-1 text-xs font-semibold text-tafel-600 dark:bg-tafel-500/15 dark:text-tafel-400">
+              <span className="rounded-full bg-tawizy-50 px-3 py-1 text-xs font-semibold text-tawizy-600 dark:bg-tawizy-500/15 dark:text-tawizy-400">
                 Now in early access
               </span>
               <h1 className="text-5xl font-bold tracking-tight text-balance sm:text-6xl">
@@ -177,7 +177,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="max-w-lg text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-                Tafel is a photo-sharing app for the moments worth passing around the table.
+                Tawizy is a photo-sharing app for the moments worth passing around the table.
                 Post to everyone, or keep it to the people who matter.
               </p>
               <WaitlistForm />
@@ -199,7 +199,7 @@ export default function Home() {
                   key={title}
                   className="rounded-3xl bg-white p-7 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-white/10"
                 >
-                  <span className="grid size-11 place-items-center rounded-2xl bg-tafel-50 text-tafel-600 dark:bg-tafel-500/15 dark:text-tafel-400">
+                  <span className="grid size-11 place-items-center rounded-2xl bg-tawizy-50 text-tawizy-600 dark:bg-tawizy-500/15 dark:text-tawizy-400">
                     <Icon className="size-6" />
                   </span>
                   <h3 className="mt-5 text-lg font-semibold">{title}</h3>
@@ -215,12 +215,12 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>
-                <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Fresh on Tafel</h2>
+                <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Fresh on Tawizy</h2>
                 <p className="mt-2 text-zinc-600 dark:text-zinc-400">
                   A taste of what people are sharing this week.
                 </p>
               </div>
-              <a href="#join" className="text-sm font-semibold text-tafel-600 hover:underline dark:text-tafel-400">
+              <a href="#join" className="text-sm font-semibold text-tawizy-600 hover:underline dark:text-tawizy-400">
                 See more when you join &rarr;
               </a>
             </div>
@@ -260,7 +260,7 @@ export default function Home() {
       <footer className="border-t border-zinc-100 dark:border-zinc-900">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 py-8 text-sm text-zinc-500 sm:flex-row sm:px-6">
           <Logo />
-          <p>&copy; 2026 Tafel. A landing page test.</p>
+          <p>&copy; 2026 Tawizy. A landing page test.</p>
         </div>
       </footer>
     </div>

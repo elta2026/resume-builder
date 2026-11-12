@@ -13,12 +13,12 @@
 }
 
 @theme {
-  --color-tafel-50: #fff3ee;
-  --color-tafel-100: #ffe2d6;
-  --color-tafel-400: #ff7a52;
-  --color-tafel-500: #f45a33;
-  --color-tafel-600: #dc4221;
-  --color-tafel-amber: #ffb224;
+  --color-tawizy-50: #fff3ee;
+  --color-tawizy-100: #ffe2d6;
+  --color-tawizy-400: #ff7a52;
+  --color-tawizy-500: #f45a33;
+  --color-tawizy-600: #dc4221;
+  --color-tawizy-amber: #ffb224;
 }
 
 @media (prefers-color-scheme: dark) {
